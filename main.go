@@ -11,4 +11,10 @@ func main() {
 		sum += i 
 	}
 	fmt.Println(sum)
+
+	n :=1
+	for n <5{
+	n *= 2
+	}
+	fmt.Println(n)
 }
