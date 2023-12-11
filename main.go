@@ -16,5 +16,8 @@ func main() {
 	for n <5{
 	n *= 2
 	}
+	for {
+	fmt.Println("Infinite Loop ...")
+	}
 	fmt.Println(n)
 }
