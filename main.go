@@ -23,12 +23,17 @@ func main() {
 	cnt := 0
 
 	for {
-		cnt++
-		if cnt%2 != 0 {
+	cnt++
+	if cnt%2 != 0 {
 			continue
+}
+
+	if cnt > 100 {
+		break
 	}
 
 	fmt.Printf("%d Infinite Loop ...\n", cnt)
+
 	time.Sleep(1 * time.Second)
 	}
 
