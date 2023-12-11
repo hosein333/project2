@@ -20,8 +20,16 @@ func main() {
 	n *= 2
 	}
 
-	cnt := 0
+	maps := map[string]int{"Tehran": 1, "Karaj": 2, "Ramsar": 3, "Rasht": 4}
 
+	maps["Isfahan"] = 5
+
+	for key, value := range maps {
+		fmt.Println(key, value)
+	}
+
+
+	cnt := 0
 	for {
 	cnt++
 	if cnt%2 != 0 {
