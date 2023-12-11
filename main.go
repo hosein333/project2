@@ -24,7 +24,7 @@ func main() {
 
 	for {
 	cnt++
-	fmt.Printf("%d Infinite Loop ..., cnt")
+	fmt.Printf("%d Infinite Loop ...\n", cnt)
 	time.Sleep(1 * time.Second)
 	}
 
