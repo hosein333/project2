@@ -12,15 +12,21 @@ func main() {
 	for i:= 0; i<5 ; i++ {
 		sum += i 
 	}
+
 	fmt.Println(sum)
 
 	n :=1
 	for n <5{
 	n *= 2
 	}
+
+	cnt := 0
+
 	for {
-	fmt.Println("Infinite Loop ...")
-	time .Sleep(1 * time.Second)
+	cnt++
+	fmt.Printf("%d Infinite Loop ..., cnt")
+	time.Sleep(1 * time.Second)
 	}
-	fmt.Println(n)
+
+	fmt.Println("After Loops")
 }
