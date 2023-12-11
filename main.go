@@ -1,49 +1,11 @@
 package main
 
-import ( 
-     "fmt"
-     "time"
-)
+import "fmt"
+
 func main() {
-	fmt.Println("Hello World!")
+	var x = 25
 
-	sum := 0
-
-	for i:= 0; i<5 ; i++ {
-		sum += i 
+	if x%5 ==0 {
+		fmt.Printf("%d is multiple of 5\n", x)
 	}
-
-	fmt.Println(sum)
-
-	n :=1
-	for n <5{
-	n *= 2
-	}
-
-	maps := map[string]int{"Tehran": 1, "Karaj": 2, "Ramsar": 3, "Rasht": 4}
-
-	maps["Isfahan"] = 5
-
-	for key, value := range maps {
-		fmt.Println(key, value)
-	}
-
-
-	cnt := 0
-	for {
-	cnt++
-	if cnt%2 != 0 {
-			continue
-}
-
-	if cnt > 100 {
-		break
-	}
-
-	fmt.Printf("%d Infinite Loop ...\n", cnt)
-
-	time.Sleep(1 * time.Second)
-	}
-
-	fmt.Println("After Loops")
 }
