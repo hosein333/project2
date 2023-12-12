@@ -13,19 +13,26 @@ func chechMultiple(x int) {
 
 	if x%2 ==0 {
 		fmt.Printf("%d is multiple of 2\n", x)
-	} else if x%3 ==0 {
+	}
+	if x%3 ==0 {
                 fmt.Printf("%d is multiple of 3\n", x)
-	} else if x%4 ==0 {
+	}
+	if x%4 ==0 {
                 fmt.Printf("%d is multiple of 4\n", x)
-	} else if x%5 ==0 {
+	}
+	if x%5 ==0 {
                 fmt.Printf("%d is multiple of 5\n", x)
-	} else if x%6 ==0 {
+	}
+	if x%6 ==0 {
                 fmt.Printf("%d is multiple of 6\n", x)
-	} else if x%7 ==0 {
+	}
+	if x%7 ==0 {
                 fmt.Printf("%d is multiple of 7\n", x)
-	} else if x%8 ==0 {
+	}
+	if x%8 ==0 {
                 fmt.Printf("%d is multiple of 8\n", x)
-	} else if x%9 ==0 {
+	}
+	if x%9 ==0 {
                 fmt.Printf("%d is multiple of 9\n", x)
 	}
 
