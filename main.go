@@ -3,12 +3,31 @@ package main
 import "fmt"
 
 func main() {
-	x := 25
+	chechMultiple(25)
+	chechMultiple(26)
+	chechMultiple(27)
+	chechMultiple(30)
+}
 
-	if x%5 ==0 && x != 25 {
-		fmt.Printf("%d is multiple of 5\n", x)
-	} else {
-                fmt.Printf("%d is not multiple of 5  or equal to 25\n", x)
+func chechMultiple(x int) {
+
+	if x%2 ==0 {
+		fmt.Printf("%d is multiple of 2\n", x)
+	} else if x%3 ==0 {
+                fmt.Printf("%d is multiple of 3\n", x)
+	} else if x%4 ==0 {
+                fmt.Printf("%d is multiple of 4\n", x)
+	} else if x%5 ==0 {
+                fmt.Printf("%d is multiple of 5\n", x)
+	} else if x%6 ==0 {
+                fmt.Printf("%d is multiple of 6\n", x)
+	} else if x%7 ==0 {
+                fmt.Printf("%d is multiple of 7\n", x)
+	} else if x%8 ==0 {
+                fmt.Printf("%d is multiple of 8\n", x)
+	} else if x%9 ==0 {
+                fmt.Printf("%d is multiple of 9\n", x)
 	}
+
 
 }
