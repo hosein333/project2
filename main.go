@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	checkdayOfWeek(1)
+	checkdayOfWeek(2)
 }
 
 func chechMultiple(x int) {
