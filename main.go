@@ -3,10 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	chechMultiple(25)
-	chechMultiple(26)
-	chechMultiple(27)
-	chechMultiple(30)
+	checkdayOfWeek(1)
 }
 
 func chechMultiple(x int) {
@@ -37,4 +34,30 @@ func chechMultiple(x int) {
 	}
 
 
+}
+
+
+
+func checkdayOfWeek(day int) {
+	if day == 1 {
+		fmt.Println("Saturday")
+	}
+	if day == 2 {
+                fmt.Println("Sunday")
+        }
+	if day == 3 {
+                fmt.Println("Monday")
+	}
+	if day == 4 {
+                fmt.Println("Thursday")
+	}
+	if day == 5 {
+                fmt.Println("Wednesday")
+	}
+	if day == 6 {
+                fmt.Println("Thursday")
+	}
+	if day == 7 {
+                fmt.Println("Friday")
+	}
 }
