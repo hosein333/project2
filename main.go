@@ -4,6 +4,8 @@ import "fmt"
 
 func main() {
 	checkdayOfWeek(2)
+	checkdayOfWeek(3)
+	checkdayOfWeek(9)
 }
 
 func chechMultiple(x int) {
@@ -54,7 +56,8 @@ func checkdayOfWeek(day int) {
 	fmt.Println("Saturday")
 	case 7: 
 	fmt.Println("Sunday")
-
+	default: 
+	fmt.Println("Invalid day")
 }
 
 }
