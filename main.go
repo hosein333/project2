@@ -39,25 +39,22 @@ func chechMultiple(x int) {
 
 
 func checkdayOfWeek(day int) {
-	if day == 1 {
-		fmt.Println("Saturday")
-	}
-	if day == 2 {
-                fmt.Println("Sunday")
-        }
-	if day == 3 {
-                fmt.Println("Monday")
-	}
-	if day == 4 {
-                fmt.Println("Thursday")
-	}
-	if day == 5 {
-                fmt.Println("Wednesday")
-	}
-	if day == 6 {
-                fmt.Println("Thursday")
-	}
-	if day == 7 {
-                fmt.Println("Friday")
-	}
+	switch day {
+	case 1: 
+	fmt.Println("Monday")
+	case 2: 
+	fmt.Println("Tuesday")
+	case 3: 
+	fmt.Println("Wednesday")
+	case 4: 
+	fmt.Println("Thursday")
+	case 5: 
+	fmt.Println("Friday")
+	case 6: 
+	fmt.Println("Saturday")
+	case 7: 
+	fmt.Println("Sunday")
+
+}
+
 }
